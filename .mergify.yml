@@ -1,3 +1,0 @@
-commands_restrictions:
-  rebase:
-    conditions: true
