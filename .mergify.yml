@@ -1,0 +1,8 @@
+pull_request_rules:
+  - name: VM5 bot-account OAuth revocation comment probe
+    conditions:
+      - label = vm5-bot-comment-oauth-probe-260915
+    actions:
+      comment:
+        message: VM5_BOT_ACCOUNT_COMMENT_OAUTH_PROBE_20260915
+        bot_account: livastic-vm5-secondary-20260911
