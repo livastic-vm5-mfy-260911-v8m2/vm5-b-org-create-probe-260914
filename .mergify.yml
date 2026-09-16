@@ -2,7 +2,7 @@ pull_request_rules:
   - name: VM5 sender laundering stage A
     conditions:
       - author = livastic-vm5-secondary-20260911
-      - sender = livastic-vm5-secondary-20260911
+      - title ~= VM5_LOWPRIV_SENDER_TRIGGER_20260916
       - -label = bug
     actions:
       label:
@@ -15,4 +15,3 @@ pull_request_rules:
     actions:
       comment:
         message: VM5_SENDER_PERMISSION_LAUNDERING_SENTINEL_20260916
-
